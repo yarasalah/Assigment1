@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:keepScreenOn="false"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="#f53d61"
+        android:orientation="vertical">
+
+         <ImageView
+             android:id="@+id/imageView3"
+             android:layout_width="100dp"
+             android:layout_height="100dp"
+             android:layout_gravity="center"
+             android:layout_marginTop="50dp"
+             app:srcCompat="@drawable/profile" />
+
+         <TextView
+             android:id="@+id/textView"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="16dp"
+             android:layout_marginBottom="30dp"
+             android:gravity="center"
+             android:text="Change your profile photo"
+             android:textColor="#fff"
+             android:textSize="15sp" />
+     </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ededed"
+            android:paddingStart="25dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:scrollHorizontally="false"
+            android:text="Profile"
+            android:textColor="#949494"
+            android:textSize="17sp" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:drawableStart="@mipmap/ic_launcher_prof"
+            android:ems="10"
+            android:inputType="textPersonName|textMultiLine"
+            android:text="Yara Almadhoun"
+            android:textColor="#a19e9e"
+            android:textSize="13sp" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="20dp"
+            android:background="#ededed"
+            android:paddingTop="30dp" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:drawableStart="@mipmap/ic_launcher_profile"
+            android:ems="10"
+            android:inputType="textPersonName|textMultiLine"
+            android:text="yarasalah"
+            android:textColor="#a19e9e"
+            android:textSize="13sp" />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="20dp"
+            android:background="#ededed"
+            android:paddingTop="30dp" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:drawableStart="@mipmap/ic_launcher_public"
+            android:ems="10"
+            android:inputType="textWebEmailAddress|textMultiLine"
+            android:text="http://yourdomain.com"
+            android:textColor="#a19e9e"
+            android:textSize="13sp" />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="20dp"
+            android:background="#ededed"
+            android:paddingTop="30dp" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:drawableStart="@mipmap/ic_launcher_assign"
+            android:ems="10"
+            android:inputType="textMultiLine|text"
+            android:text="I'm software engineer"
+            android:textColor="#a19e9e"
+            android:textSize="13sp" />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ededed"
+            android:paddingStart="25dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="Classified Information"
+            android:textColor="#949494"
+            android:textSize="17sp" />
+
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:drawableStart="@mipmap/ic_launcher_email"
+            android:ems="10"
+            android:inputType="textEmailAddress|textMultiLine"
+            android:text="name@yourdomain.com"
+            android:textColor="#a19e9e"
+            android:textSize="13sp" />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="20dp"
+            android:background="#ededed"
+            android:paddingTop="30dp" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:drawableStart="@mipmap/ic_launcher_phone"
+            android:ems="10"
+            android:inputType="phone|textMultiLine"
+            android:text="+972898594"
+            android:textColor="#a19e9e"
+            android:textSize="13sp" />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="20dp"
+            android:background="#ededed"
+            android:paddingTop="30dp" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:drawableStart="@mipmap/ic_launcher_gender"
+            android:ems="10"
+            android:inputType="text|textMultiLine"
+            android:text="Female"
+            android:textColor="#a19e9e"
+            android:textSize="13sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ededed"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/buttun_default"
+            android:onClick="Done"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Done"
+            android:textAllCaps="false"
+            android:textColor="#fff" />
+
+      </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

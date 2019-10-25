@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Profile</string>
+    <string name="app_profile">Your Profile</string>
+    <string name="app_editprofile">Edit Profile</string>
+
+</resources>
