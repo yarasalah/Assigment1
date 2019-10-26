@@ -30,7 +30,7 @@
              android:layout_gravity="clip_vertical|center_vertical"
              android:layout_marginStart="135dp"
              android:layout_marginTop="50dp"
-             app:srcCompat="@drawable/profile" />
+             app:srcCompat="@drawable/img_user" />
 
          <TextView
              android:id="@+id/textView"
@@ -63,7 +63,9 @@
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:background="#fff"
-            android:drawableStart="@mipmap/ic_launcher_prof"
+            android:padding="16dp"
+            android:drawablePadding="16dp"
+            android:drawableStart="@drawable/ic_user"
             android:ems="10"
             android:inputType="textPersonName|textMultiLine"
             android:text="Yara Almadhoun"
