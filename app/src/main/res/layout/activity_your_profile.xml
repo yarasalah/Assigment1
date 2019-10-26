@@ -165,7 +165,6 @@
                         android:layout_alignTop="@id/mobile"
                         android:layout_alignEnd="@id/mobile"
                         android:background="#fff"
-                        android:ems="15"
                         android:gravity="right"
                         android:hint="enter email"
                         android:inputType="textEmailAddress|textMultiLine"
